@@ -1,0 +1,27 @@
+{
+    "id": "ttis",
+    "title": "Terrible Things In Space",
+    "description": "TODO get someone else to write a description",
+    "version": "0.0.0.1",
+    "templateVersion": 1,
+    "authors": [
+        {
+          "name": "Argus"
+        },
+        {
+         "name": "spine"
+        }
+      ],
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "packs": [],
+    "languages": [],
+    "socket": false,
+    "gridDistance": 1,
+    "gridUnit": "hex",
+    "url": "TODO",
+    "manifest": "TODO",
+    "download": "TODO"
+    
+}

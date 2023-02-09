@@ -1,0 +1,60 @@
+{
+"Actor":{
+    "types": ["PC", "Critter", "NPC"],
+    "templates": {
+        "resources": {
+            "health": {
+                "max": 3,
+                "value": 3
+            },
+            "speed":{
+                "value": 3
+            },
+            "initiative": {
+                "value": 3,
+                "max": 6,
+                "min": 0
+            },
+            "carry": {
+                "max": 5,
+                "value": 0
+            },
+            "morale": {
+                "max": 10,
+                "min": 0,
+                "value": 5
+            }
+        },
+        "limits": {
+            "cybernetics": {
+                "max": 5,
+                "value": 1
+            },
+            "genisis": {
+                "max": 5,
+                "value": 1
+            },
+            "psionics": {
+                "max": 5,
+                "value": 1
+            }
+        },
+        "potential": 0
+    },
+    "PC": {
+        "templates": ["resources", "limits", "potential"]
+    }
+},
+"Items":{
+    "types":["Gear", "Exertion"],
+    "templates":{
+        "integrity": {
+            "Max": 1,
+            "Value": 1
+        }
+    },
+    "Gear": {
+        "templates": ["integrity"]
+    }
+}
+}
